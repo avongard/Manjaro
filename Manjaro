@@ -1,0 +1,7 @@
+# Install XIVLauncher on Manjaro
+
+sudo pacman flatpak
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+flatpak install flathub dev.goats.xivlauncher
