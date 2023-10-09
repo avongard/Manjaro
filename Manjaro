@@ -21,3 +21,20 @@ sudo ln -s /var/lib/snapd /snap
 sudo snap install ncspot
 
 ncspot
+
+# Add an application to desktop
+
+cd /usr/share applications
+
+vim <application>.desktop
+
+------
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/path/to/executable
+Name=<applications>
+Icon=/path/to/icon
+------
