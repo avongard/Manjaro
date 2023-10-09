@@ -24,9 +24,9 @@ ncspot
 
 # Add an application to desktop
 
-cd /usr/share applications
+cd /usr/share/applications
 
-vim <application>.desktop
+sudo vim <application>.desktop
 
 ------
 [Desktop Entry]
