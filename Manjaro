@@ -22,6 +22,12 @@ sudo snap install ncspot
 
 ncspot
 
+# Change ncspot colors
+
+path: /home/user/.var/app.io.github.hrkfdn.ncspot/config/ncspot/config.toml
+
+website for picking colors: https://ncspot-theme-generator.vaa.red/
+
 # Add an application to desktop
 
 cd /usr/share/applications
