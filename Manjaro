@@ -44,3 +44,7 @@ Icon=/path/to/icon
 sudo vim /etc/sudoers
 
 Uncomment three lines to allow sudo users to enter any command without password
+
+# Find a file
+
+find /home/username/ -name "*<file name>"
