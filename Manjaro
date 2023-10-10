@@ -38,3 +38,9 @@ Exec=/path/to/executable
 Name=<applications>
 Icon=/path/to/icon
 ------
+
+# Sudoers
+
+sudo vim /etc/sudoers
+
+Uncomment three lines to allow sudo users to enter any command without password
